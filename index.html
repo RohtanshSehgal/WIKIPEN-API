@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> WIKI API | Rohtansh Sehgal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://rohtanshsehgal.github.io/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="https://rohtanshsehgal.github.io/#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="https://rohtanshsehgal.github.io/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="https://rohtanshsehgal.blogspot.com/2020/08/beginners-guide-to-start-with-python.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOGS</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">PORTFOLIO'S<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="https://github.com/RohtanshSehgal" class="w3-bar-item w3-button">GITHUB</a>
+        <a href="https://www.linkedin.com/in/rohtanshsehgal/" class="w3-bar-item w3-button">LINKEDIN</a>
+        <a href="#wikiapi" class="w3-bar-item w3-button">WIKIPEDIA API</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="https://rohtanshsehgal.github.io/#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="https://rohtanshsehgal.github.io/#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="https://rohtanshsehgal.blogspot.com/2020/08/beginners-guide-to-start-with-python.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOGS</a>
+<a href="https://github.com/RohtanshSehgal" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">GITHUB</a>
+  <a href="https://www.linkedin.com/in/rohtanshsehgal/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LINKEDIN</a>
+  <a href="./wikiapi.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WIKIPEDIA API</a>
+</div>
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="home">
+    <h1 class="w3-wide">ROHTANSH SEHGAL</h1>
+    <p class="w3-opacity"><h2><i>LEARNER | PROGRAMMER | ENTHUSIAST</i></h2></p>
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="wikiapi">
+    <h2 class="w3-wide">THE WIKIPEDIA API</h2>
+    <p class="w3-opacity"><i>We love open-source</i></p>
+    <p class="w3-justify"><h4>HOME PAGE</h4><h5>This is wikipedia api home page. There are several methods you can use to get different data in json. This api is made in Python using  <a href="https://pypi.org/project/wikipedia/" target="_blank">wikipedia module</a>  and <a href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank">Flask</a> . The api have several endpoint and routes, displayed below </h5></p>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="wikiapi">
+    <h2 class="w3-wide">First Endpoint is "content"</h2>
+    <h4>This endpoint when used returns content and suggestions of the query you entered.</h4>
+    <h5>Use it as: /content/?q="query"</h5>
+    <h6>For example: /content/?q=india</h6>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="wikiapi">
+    <h2 class="w3-wide">Second Endpoint is "page"</h2>
+    <h4>This endpoint when used returns summary, images and suggestions of the query you entered.</h4>
+    <h5>Use it as: /page/?q="query"</h5>
+    <h6>For example: /page/?q=india</h6>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="wikiapi">
+    <h2 class="w3-wide">Third Endpoint is "search"</h2>
+    <h4>This endpoint when used returns search suggestions of the query you entered.</h4>
+    <h5>Use it as: /search/?q="query"</h5>
+    <h6>For example: /search/?q=india</h6>
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="wikiapi">
+    <h2 class="w3-wide">CONTRIBUTE TO THIS PROJECT AT <a href="https://github.com/RohtanshSehgal" target="_blank">GITHUB</a></h2>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+</body>
+</html>
