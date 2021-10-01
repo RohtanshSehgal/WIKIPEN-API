@@ -1,3 +1,3 @@
 # WIKIPEN-API
-MORE INFO ABOUT THE API IS AT
+See the API in action through above link: 
 # https://wikipenapi.herokuapp.com/
